@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate's Cove</title>
+    <style>
+        body {
+            font-family: 'Pirata One', cursive;
+            background-color: #1d2c4dff;
+            color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center align text */
+        }
+        header {
+            background-color: #2c3e50;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 78px;
+        }
+        nav {
+            background-color: #34495e;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff; /* Links colored white */
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 72px;
+        }
+        nav a:hover {
+            background-color: #f39c12;
+        }
+        .container {
+            padding: 20px;
+               }
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center; /* Center align text */
+        }
+        /* Adjust font size of content within tabs */
+        #home p,
+        #about p,
+        #gallery p,
+        #publications ul,
+        #contact p {
+            font-size: 60px;
+        }
+.container {
+    margin-bottom: 120px; /* Adjusted margin to accommodate footer */
+}
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pirate's Cove</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showTab('home')">Home</a>
+        <a href="#" onclick="showTab('about')">About</a>
+        <a href="#" onclick="showTab('gallery')">Gallery</a>
+        <a href="#" onclick="showTab('publications')">Publications</a>
+        <a href="#" onclick="showTab('contact')">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="home" style="display:none;">
+            <h2>Home</h2>
+            <p>Welcome to Pirate's Cove, your ultimate destination for all things pirate!</p>
+        </div>
+        <div id="about" style="display:none;">
+            <h2>About</h2>
+            <p>Learn about the history of piracy and the legends of the high seas.</p>
+	<p>Edward Teach (Blackbeard):<p>
+Edward Teach, commonly known as Blackbeard, was a notorious English pirate who operated around the West Indies and the eastern coast of the American colonies during the early 18th century. Little is known about his early life, but he gained a fearsome reputation for his ferocity and intimidation tactics, which included weaving lit fuses into his beard during battles. Blackbeard's career as a pirate was short but impactful, and his flagship, the Queen Anne's Revenge, terrorized merchant ships in the Caribbean until his death in a battle with British naval forces in 1718.
+<p>
+Anne Bonny:<p>
+Anne Bonny was an Irish pirate who operated in the Caribbean during the early 18th century. Born in Ireland, she immigrated to the American colonies where she became involved with the pirate Captain Jack Rackham, commonly known as Calico Jack. Bonny gained notoriety for her fearless attitude and participation in piracy alongside male crewmates. She was captured by British authorities in 1720 and sentenced to death, but her execution was postponed due to her pregnancy. Legend has it that she was later released and disappeared from historical records.
+<p>
+Mary Read:<p>
+Mary Read was an English pirate who operated in the Caribbean during the early 18th century. She lived much of her life disguised as a man and served in the British military before turning to piracy. Read joined the crew of Calico Jack Rackham and became close companions with Anne Bonny. Known for her bravery in battle, Read was captured along with Bonny in 1720. She died in prison while awaiting trial, possibly from complications related to childbirth.
+<p>
+Henry Morgan:<p>
+Henry Morgan was a Welsh pirate and privateer who became one of the most successful buccaneers of the Caribbean during the late 17th century. Born in Wales, Morgan later moved to the West Indies where he gained fame for his daring raids on Spanish settlements and ships. He was appointed as a privateer by the English government and led several successful expeditions, including the capture of Panama City in 1671. Morgan's exploits made him a wealthy and influential figure, and he was eventually knighted by King Charles II of England.
+<p>
+Calico Jack (John Rackham):<p>
+John Rackham, commonly known as Calico Jack, was an English pirate who operated in the Caribbean during the early 18th century. He gained his nickname from the colorful calico clothing he wore. Rackham is best known for captaining the pirate ship Revenge and for his association with the female pirates Anne Bonny and Mary Read. His career as a pirate was short-lived, as he was captured by British authorities in 1720 and hanged for piracy.
+<p>
+Bartholomew Roberts:<p>
+Bartholomew Roberts, also known as Black Bart, was a Welsh pirate who operated in the Caribbean and along the coast of West Africa during the early 18th century. He is considered one of the most successful pirates of the Golden Age of Piracy, having captured hundreds of ships during his career. Roberts was known for his boldness and strategic acumen, as well as his democratic leadership style among his crew. He was killed in a battle with British naval forces off the coast of Africa in 1722.
+<p>
+Stede Bonnet:<p>
+Stede Bonnet was an English pirate who operated in the Caribbean during the early 18th century. Unlike many other pirates of his time, Bonnet came from a wealthy background and had no prior experience at sea. He became a pirate almost impulsively, purchasing a ship and assembling a crew to pursue a life of piracy. Bonnet's career was short-lived and marked by incompetence and ill fortune. He was captured by British authorities in 1718 and hanged for piracy.
+<p>
+Henry Every:<p>
+Henry Every, also known as Long Ben, was an English pirate who operated in the Indian Ocean and the Red Sea during the late 17th century. He is best known for perpetrating one of the most profitable pirate raids in history, the capture of the Grand Mughal ship Ganj-i-Sawai in 1695. Every and his crew amassed a huge fortune from the plunder, but he eventually disappeared from historical records, evading capture and living out his days in obscurity.</p>
+        </div>
+        <div id="gallery" style="display:none;">
+            <h2>Gallery</h2>
+            <p>View stunning images of pirate ships, treasure maps, and more!</p>
+	 <p><img src="day1.jpg" alt="Day 1 Image">
+	 <p><img src="day2.jpg" alt="Day 2 Image">
+	 <p><img src="day3.jpg" alt="Day 3 Image">
+	 <p><img src="day4.png" alt="Day 4 Image">
+	 <p><img src="day5.jpg" alt="Day 5 Image">
+	 <p><img src="day6.jpg" alt="Day 6 Image">
+	 <p><img src="day7.jpg" alt="Day 7 Image">
+	 <p><img src="day8.jpg" alt="Day 8 Image">
+	 <p><img src="day9.jpg" alt="Day 9 Image">
+	 <p><img src="day10.jpg" alt="Day 10 Image">
+	 <p><img src="day11.jpg" alt="Day 11 Image">
+	 <p><img src="day12.jpg" alt="Day 12 Image">
+	 <p><img src="day13.jpg" alt="Day 13 Image">
+	 <p><img src="day14.jpg" alt="Day 14 Image">
+	 <p><img src="day15.jpg" alt="Day 15 Image">
+	 <p><img src="day16.jpg" alt="Day 16 Image">
+	 <p><img src="day17.jpg" alt="Day 17 Image">
+	 <p><img src="day18.jpg" alt="Day 18 Image">
+	 <p><img src="day19.jpg" alt="Day 19 Image">
+	 <p><img src="day20.jpg" alt="Day 20 Image">
+        </div>
+        <div id="publications" style="display:none;">
+            <h2>Publications</h2>
+            <ul>
+                <li><a href="https://pieperproductions.github.io/thepiratescode/">The Pirate's Code</a></li>
+                <li><a href="https://pieperproductions.github.io/Stormandsplendor/">Storms and Splendor: Tales of the High Seas</a></li>
+                <li><a href="https://pieperproductions.github.io/ThePeoplesNews/">The People's News</a></li>
+            </ul>
+        </div>
+        <div id="contact" style="display:none;">
+            <h2>Contact</h2>
+            <p>Get in touch with us to join the crew or report sightings of hidden treasure!</p>
+	<p>Contact Information: TBD</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pirate's Cove</p>
+    </footer>
+
+    <script>
+        function showTab(tabName) {
+            var tabs = ["home", "about", "gallery", "publications", "contact"];
+            tabs.forEach(function(tab) {
+                document.getElementById(tab).style.display = "none";
+            });
+            document.getElementById(tabName).style.display = "block";
+        }
+    </script>
+</body>
+</html>
